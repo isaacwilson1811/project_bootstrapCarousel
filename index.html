@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&display=swap" rel="stylesheet"> 
+    <!-- Bootstrap CSS & JS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Project Bootstrap Carousel</title>
+</head>
+<body>
+<div class="container page">
+    <div class="row align-items-center header">
+        <div class="col-sm">
+            <h1>Id blanditiis quasi accusamus</h1>
+            <p style="color:grey">aliquid consectetur ducimus rerum qui et fuga quod.</p>
+        </div>
+    </div>
+    <div class="row align-items-center content">
+        <div class="col-sm">
+            
+            <div id="mycarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#mycarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#mycarousel" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#mycarousel" data-bs-slide-to="3"></li>
+                    <li data-bs-target="#mycarousel" data-bs-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/c_image_1.png" class="d-block w-100" alt="image">
+                        <div class="carousel-caption d-block">
+                            <h5 class="mycaption-h5">One of Five</h5>
+                            <p class="mycaption-p">
+                                Nulla vitae elit libero, a pharetra augue mollis interdum.
+                                Dolor sit amet consectetur. Lorem ipsum dolor sit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/c_image_2.png" class="d-block w-100" alt="image">
+                        <div class="carousel-caption d-block">
+                            <h5 class="mycaption-h5">Two of Five</h5>
+                            <p class="mycaption-p">
+                                Lorem ipsum dolor sit. A pharetra augue mollis interdum.
+                                Dolor sit amet consectetur.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/c_image_3.png" class="d-block w-100" alt="image">
+                        <div class="carousel-caption d-block">
+                            <h5 class="mycaption-h5">Three of Five</h5>
+                            <p class="mycaption-p">
+                                Dolor sit amet consectetur. Lorem ipsum dolor sit amet.
+                                Nulla vitae elit libero, a pharetra augue mollis interdum.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/c_image_4.png" class="d-block w-100" alt="image">
+                        <div class="carousel-caption d-block">
+                            <h5 class="mycaption-h5">Four of Five</h5>
+                            <p class="mycaption-p">
+                                Nulla vitae elit libero, a pharetra augue mollis interdum.
+                                Dolor sit amet consectetur.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/c_image_5.png" class="d-block w-100" alt="image">
+                        <div class="carousel-caption d-block">
+                            <h5 class="mycaption-h5">Five of Five</h5>
+                            <p class="mycaption-p">
+                                Dolor sit amet consectetur. Lorem ipsum dolor sit amet.
+                                Nulla vitae elit libero, a pharetra augue mollis interdum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#mycarousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#mycarousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
