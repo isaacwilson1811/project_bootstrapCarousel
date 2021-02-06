@@ -16,14 +16,14 @@
 </head>
 <body>
 <div class="container page">
-    <!-- header row -->
+    <!-- Header row -->
     <div class="row align-items-center header">
         <div class="col-sm">
             <h1>Id blanditiis quasi accusamus</h1>
             <p style="color:grey">aliquid consectetur ducimus rerum qui et fuga quod.</p>
         </div>
     </div>
-    <!-- content row -->
+    <!-- Carousel row -->
     <div class="row align-items-center content">
         <div class="col-sm">
             
@@ -98,6 +98,7 @@
             </div>
         </div>
     </div>
+    <!-- Card Row -->
     <div class="row">
         <div class="col-sm">
             <div class="card">
@@ -105,7 +106,8 @@
                 <div class="card-body">
                     <h5 class="card-title">Card 1 of 3</h5>
                     <p class="card-text">Lorem ipsum dolor sit.</p>
-                    <a href="#" class="btn btn-dark">BUTON GO TOP</a>
+                    <!-- modal control button-->
+                    <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">OPEN MODAL</a>
                 </div>
             </div>
         </div>
@@ -115,7 +117,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Card 2 of 3</h5>
                     <p class="card-text">Lorem ipsum dolor sit.</p>
-                    <a href="#" class="btn btn-dark">BUTON GO TOP</a>
+                    <a href="#" class="btn btn-dark">GO TO TOP</a>
                 </div>
             </div>
         </div>
@@ -125,11 +127,33 @@
                 <div class="card-body">
                     <h5 class="card-title">Card 3 of 3</h5>
                     <p class="card-text">Lorem ipsum dolor sit.</p>
-                    <a href="#" class="btn btn-dark">BUTON GO TOP</a>
+                    <a href="#" class="btn btn-dark">GO TO TOP</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">This is a Modal</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus labore veritatis consectetur cum quod doloremque perspiciatis deleniti ad sapiente iusto placeat repellendus architecto qui vel enim deserunt, aspernatur, ipsa distinctio voluptatem commodi, eum quae.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close Modal</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 </body>
 </html>
