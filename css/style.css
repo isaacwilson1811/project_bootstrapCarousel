@@ -20,19 +20,31 @@ body{
 }
 
 .page{
-  border: 2px dashed grey;
+  border: 4px dashed grey;
+  outline:100px solid rgba(0, 0, 0, 0.5);
+  outline-offset: 10px;
 }
 
 .header{
-  /* background-image: url(../images/tile_bg-light.png);
-  background-attachment: fixed; */
+  padding:50px 0;
+  background-image: url(../images/tile_bg-light-g.png);
+  background-position: -10px;
+  background-repeat: repeat-x;
   color:#fff;
   font-family: 'Press Start 2P', cursive;
+  margin-bottom:10px;
+  outline:10px solid rgba(0, 0, 0, 0.5);
+  outline-offset: -10px;
 }
 
 .content{
   color:#fff;
   font-family: 'Share Tech Mono', monospace;
+  margin-bottom:10px;
+}
+
+.cards{
+  margin-bottom:10px;
 }
 
 .mycaption-h5{
@@ -44,4 +56,13 @@ body{
 .mycaption-p{
   color:white;
   background:black;
+}
+
+.footer{
+  background-image: url(../images/tile_bg-light-g.png);
+  background-position: -10px;
+  background-repeat: repeat-x;
+  padding:50px 0;
+  outline:10px solid rgba(0, 0, 0, 0.5);
+  outline-offset: -10px;
 }
